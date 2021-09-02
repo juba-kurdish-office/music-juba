@@ -40,7 +40,7 @@ execute(message) {
     const left = ms - seek;
     //define embed
     let nowPlaying = new MessageEmbed()
-      .setTitle("<:emoji_4:815583574983966720> Now playing")
+      .setTitle("<a:emoji_80:881156593578827786> Now playing")
       .setDescription(`[**${song.title}**](${song.url})`)
       .setThumbnail(song.thumbnail.url)
       .setColor("#FF0000")
