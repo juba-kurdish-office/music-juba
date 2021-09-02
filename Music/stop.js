@@ -19,7 +19,7 @@ async execute(message,args,client) {
   //if not in a guild retunr
   if (!message.guild) return;
   //react with approve emoji
-  message.react("<:emoji_4:815583574983966720>").catch(console.error);
+  message.react("<a:emoji_91:882033133753597992>").catch(console.error);
   const { channel } = message.member.voice;
   //get the serverQueue
   const queue = message.client.queue.get(message.guild.id);
