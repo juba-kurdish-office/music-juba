@@ -73,9 +73,9 @@
 
     //define the No args Embed, lmao
     let resultsEmbed = new Discord.MessageEmbed()
-        .setTitle(`**<a:emoji_36:823489894562791444> Available Radio Stations**`)//
+        .setTitle(`**<a:emoji_80:881156593578827786> Available Radio Stations**`)//
         .addFields(
-          { name: `***<a:emoji_36:823489894562791444> Standard Radio***`, value: `**1:  ** [\`${Radiostations[1-1].split(" ")[0]}\`](${Radiostations[1-1].split(" ")[1]})
+          { name: `***<a:emoji_80:881156593578827786> Standard Radio***`, value: `**1:  ** [\`${Radiostations[1-1].split(" ")[0]}\`](${Radiostations[1-1].split(" ")[1]})
           **2:  ** [\`${Radiostations[2-1].split(" ")[0]}\`](${Radiostations[2-1].split(" ")[1]})
           **3:  ** [\`${Radiostations[3-1].split(" ")[0]}\`](${Radiostations[3-1].split(" ")[1]})
           **4:  ** [\`${Radiostations[4-1].split(" ")[0]}\`](${Radiostations[4-1].split(" ")[1]})
@@ -136,10 +136,10 @@
       //if no args
       if (args[0] == null) {
         message.channel.send(    new MessageEmbed().setColor("#FF0000")
-        .setDescription(`**<a:emoji_36:823489894562791444> ${message.author} Check your \`direct messages\` for a list of Radio Stations!**`)
+        .setDescription(`<a:emoji_80:881156593578827786> ${message.author} Check your \`direct messages\` for a list of Radio Stations!**`)
         );
         message.author.send(new MessageEmbed().setColor("#FF0000")
-        .setDescription(`**<a:emoji_36:823489894562791444> Sent from <#${message.channel.id}>**`))
+        .setDescription(`<a:emoji_80:881156593578827786> Sent from <#${message.channel.id}>**`))
         return message.author.send(resultsEmbed);
       }
     const { channel } = message.member.voice;
@@ -251,7 +251,7 @@
     serverQueue.songs.push(song);
     //the new song embed
     const newsong = new MessageEmbed()
-      .setTitle("<:Playing:769665713124016128> " + song.title)
+      .setTitle("<a:emoji_80:881156593578827786> " + song.title)
       .setColor("#FF0000")
       .setThumbnail(song.thumbnail)
       .setURL(song.url)
