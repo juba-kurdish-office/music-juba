@@ -20,10 +20,10 @@ module.exports = {
     if(prefix === null) prefix = PREFIX;
 
     //react with approve emoji
-    message.react("<a:zeko1:841886481399283722>");
+    message.react("<:emoji_81:881156629742096394>");
 
     if(!args[0]) return message.channel.send(new MessageEmbed()
-    .setColor("#FF0000")
+    .setColor("#FF55FF")
     .setTitle(`Current Prefix: \`${prefix}\``)
     .setFooter('Please provide a new prefix')
     );
@@ -39,7 +39,7 @@ module.exports = {
     db.set(`prefix_${message.guild.id}`, args[0])
 
     message.channel.send(new MessageEmbed()
-    .setColor("#FF0000")
+    .setColor("#FF55FF")
     .setTitle(`Successfully set new prefix to **\`${args[0]}\`**`))
   }
 }
