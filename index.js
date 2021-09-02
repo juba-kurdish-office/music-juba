@@ -174,6 +174,7 @@ Online
       ❥┋nickname / !               ᵏᵃᵏjuba  ᵐˡ 𓆩🖤𓆪
       ❥┋age / 20
       ❥┋live ∕ slimane`)
+    .setImage(`https://media.discordapp.net/attachments/875408935581016114/883090380025905162/f9bd5d79310789066ea83e0144616deb.jpg`)
     .setTimestamp()
     //delete the Command
     message.delete({timeout: 300})
