@@ -245,7 +245,7 @@ client.on("guildDelete", guild => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "girl")) {
+  if (message.content.startsWith(PREFIX + "gijrl")) {
     let man = [
       "https://cdn.discordapp.com/attachments/608711473652563968/836004014411743242/image0-18.gif",
       "https://cdn.discordapp.com/attachments/608711473652563968/834099338597761094/image0.gif",
@@ -283,7 +283,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "boy")) {
+  if (message.content.startsWith(PREFIX + "bojjy")) {
     let man = [
       "https://cdn.discordapp.com/attachments/806998445390299146/825099107546562580/image1-1.gif",
       "https://cdn.discordapp.com/attachments/806998445390299146/825099038328094740/image0-3_2.gif",
@@ -321,7 +321,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "baby")) {
+  if (message.content.startsWith(PREFIX + "bjjaby")) {
     let man = [
       "https://cdn.discordapp.com/attachments/699339066029768796/835767204883464192/unnamed_4.gif",
       "https://cdn.discordapp.com/attachments/699339066029768796/833798411924537375/taki_babygif46.gif",
@@ -359,7 +359,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "neon")) {
+  if (message.content.startsWith(PREFIX + "nejjon")) {
     let man = [
       "https://cdn.discordapp.com/attachments/755890505681731714/833797136809197668/32.gif",
       "https://cdn.discordapp.com/attachments/755890505681731714/833797128920236132/15.gif",
@@ -397,7 +397,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "couple")) {
+  if (message.content.startsWith(PREFIX + "coupjjle")) {
     let man = [
       "https://cdn.discordapp.com/attachments/608711480346542102/833799513860341760/okeyy.gif",
       "https://cdn.discordapp.com/attachments/608711480346542102/833754931856670761/a_637b8e2042d540a1e5e28282e3fe5cc7.gif",
@@ -473,7 +473,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "anime")) {
+  if (message.content.startsWith(PREFIX + "anjjjime")) {
     let man = [
       "https://cdn.discordapp.com/attachments/806998445390299146/825099121202429972/received_269541241512870.gif",
       "https://cdn.discordapp.com/attachments/608711485849337856/833791013683593306/anime_gif_96.gif",
@@ -511,7 +511,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "bff")) {
+  if (message.content.startsWith(PREFIX + "bfjjf")) {
     let man = [
       "https://cdn.discordapp.com/attachments/616157762392686593/840770709764702276/BffGif-38.gif",
       "https://cdn.discordapp.com/attachments/616157762392686593/840770683490664458/BffGif-37.gif",
@@ -549,7 +549,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "bokani")) {
+  if (message.content.startsWith(PREFIX + "bokajjjni")) {
     let man = [
       "https://cdn.discordapp.com/attachments/793209080978210858/840835370719379456/GIF__.gif",
       "https://cdn.discordapp.com/attachments/793209080978210858/840835329509949450/GIF__.gif",
@@ -587,7 +587,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "man+lady")) {
+  if (message.content.startsWith(PREFIX + "man+ljjjady")) {
     let man = [
       "https://cdn.discordapp.com/attachments/749242941607772200/841742978354774036/couple_19.gif",
       "https://cdn.discordapp.com/attachments/749242941607772200/841742971958984774/couple_18.gif",
@@ -625,7 +625,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "pboy")) {
+  if (message.content.startsWith(PREFIX + "pbjjjoy")) {
     let man = [
       "https://cdn.discordapp.com/attachments/608711478496854019/841259035789230121/image0.jpg",
       "https://cdn.discordapp.com/attachments/608711478496854019/841220532002226196/f6b74269ec382023d0f8ad7a2dbc5e3e.jpg",
@@ -663,7 +663,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "pgirl")) {
+  if (message.content.startsWith(PREFIX + "pgjjjirl")) {
     let man = [
       "https://cdn.discordapp.com/attachments/608711474952798221/841263877001052180/f4c10882f69b92c266f3a07edf86ed9b.jpg",
       "https://cdn.discordapp.com/attachments/608711474952798221/841263874128478218/66ca6b28b845938415c0e4fadd8ebdb0.jpg",
@@ -701,7 +701,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "pcouple")) {
+  if (message.content.startsWith(PREFIX + "pcjjjjouple")) {
     let man = [
       "https://cdn.discordapp.com/attachments/608711481969868811/841161144110284860/mix.jpg",
       "https://cdn.discordapp.com/attachments/608711481969868811/841161135989194752/fd.jpg",
@@ -739,7 +739,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "psmoke")) {
+  if (message.content.startsWith(PREFIX + "psmjjjoke")) {
     let man = [
       "https://cdn.discordapp.com/attachments/755893206008201357/840109487482339358/erkek_pp_2.png",
       "https://cdn.discordapp.com/attachments/755893206008201357/839693877434384414/image0.jpg",
@@ -777,7 +777,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "pneon")) {
+  if (message.content.startsWith(PREFIX + "pneĵjon")) {
     let man = [
       "https://cdn.discordapp.com/attachments/755890549659140146/841046144464846858/05f36592ce0ccaace53fa36614d80cb4.jpg",
       "https://cdn.discordapp.com/attachments/755890549659140146/840597676592201748/Changing_sad_-b37a639f-c022-4579-b25b-bf2297eac786.jpg",
@@ -815,7 +815,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "pbaby")) {
+  if (message.content.startsWith(PREFIX + "pjjjjbaby")) {
     let man = [
       "https://cdn.discordapp.com/attachments/699339102989844500/840567264403390526/FB_IMG_1620460050777.jpg",
       "https://cdn.discordapp.com/attachments/699339102989844500/840511419325481040/Screenshot_20201227-184920-2.jpg",
@@ -853,7 +853,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "panime")) {
+  if (message.content.startsWith(PREFIX + "pajjjnime")) {
     let man = [
       "https://cdn.discordapp.com/attachments/608711487325995008/841259515604369438/TikTok.jpg",
       "https://cdn.discordapp.com/attachments/608711487325995008/841259461477138462/Red_String_End.jpg",
@@ -891,7 +891,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "pbff")) {
+  if (message.content.startsWith(PREFIX + "pjjjjjbff")) {
     let man = [
       "https://cdn.discordapp.com/attachments/616157882269827102/841259000238833695/image0.jpg",
       "https://cdn.discordapp.com/attachments/616157882269827102/841258989399310346/image0.jpg",
@@ -929,7 +929,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "cartoon")) {
+  if (message.content.startsWith(PREFIX + "cajjjjrtoon")) {
     let man = [
       "https://cdn.discordapp.com/attachments/755169627872428134/840674329977159741/a_0e719aef42ab05b41cf9b1bdc1929a25.gif",
       "https://cdn.discordapp.com/attachments/755169627872428134/839981546751524864/Cartoon-18.gif",
@@ -1005,7 +1005,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "movies")) {
+  if (message.content.startsWith(PREFIX + "mjjjovies")) {
     let man = [
       "https://cdn.discordapp.com/attachments/608711494279888952/840331085714817024/f02b590556adcfaefd23f3ef7d387b26.gif",
       "https://cdn.discordapp.com/attachments/608711494279888952/840330639110832149/c2b38b626f929882e0defa2f7f7a8aa2.gif",
@@ -1043,7 +1043,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "pmovies")) {
+  if (message.content.startsWith(PREFIX + "pmjjovies")) {
     let man = [
       "https://cdn.discordapp.com/attachments/608711496041758751/840772118593404928/thor.jpg",
       "https://cdn.discordapp.com/attachments/608711496041758751/839923630283423835/Tumblr_l_47757927542993.jpg",
@@ -1081,7 +1081,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "pbokani")) {
+  if (message.content.startsWith(PREFIX + "pbjjjjokani")) {
     let man = [
       "https://cdn.discordapp.com/attachments/818261072816373771/842148660711653406/images_8.jpg",
       "https://cdn.discordapp.com/attachments/818261072816373771/842148302245593139/71gBOghCjaL._SS500_.jpg",
@@ -1119,7 +1119,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "pman+lady")) {
+  if (message.content.startsWith(PREFIX + "pjjjjman+lady")) {
     let man = [
       "https://cdn.discordapp.com/attachments/749243113918431273/837707995424882688/9e37bd9cd718f9c455084823b640525c.jpg",
       "https://cdn.discordapp.com/attachments/749243113918431273/837707995193540678/05f36592ce0ccaace53fa36614d80cb4.jpg",
