@@ -167,9 +167,13 @@ Online
       return;
     //define embed
     const embed = new Discord.MessageEmbed()
-    .setColor("#FF0000")
+    .setColor("#FF55FF")
     .setAuthor(`${message.guild.name}`,message.guild.iconURL({ dynamic: true }))
-    .setDescription(saymsg)
+    .setDescription(`┈──────┄┄──────┈ꕥ
+      ❥┋name / govand
+      ❥┋nickname / !               ᵏᵃᵏjuba  ᵐˡ 𓆩🖤𓆪
+      ❥┋age / 20
+      ❥┋live ∕ slimane`)
     .setTimestamp()
     //delete the Command
     message.delete({timeout: 300})
