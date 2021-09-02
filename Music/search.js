@@ -44,7 +44,7 @@ async execute(message,args,client) {
     .setColor("#FF0000")
     //define the Result Embed
     let resultsEmbed = new MessageEmbed()
-      .setTitle("<a:fara:837363207475560470> Results for: ")
+      .setTitle("<a:emoji_80:881156593578827786> Results for: ")
       .setDescription(`\`${search}\``)
       .setColor("#FF0000")
       .setFooter("Response with your favorite number", client.user.displayAvatarURL() )
