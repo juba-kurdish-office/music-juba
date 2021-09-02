@@ -165,7 +165,7 @@ async execute(message, args, client) {
       //the new song embed
       const newsong = new MessageEmbed()
         .setTitle("<:emoji_49:840801679330508841>:" + song.title)
-        .setColor("#FF0000")
+        .setColor("#FF55FF")
         .setThumbnail(thumb)
         .setURL(song.url)
         .setDescription(`\`\`\`Has been added to the Queue.\`\`\``)
