@@ -143,12 +143,12 @@ module.exports = {
         .setTitle("<:emoji_49:840801679330508841>"+song.title)
         .setAuthor(`Play Now Music`, `https://cdn.discordapp.com/attachments/793209080978210858/841888092205613096/818843627621974056.gif`)
         .setImage(thumb)
-        .addField("Time <a:emoji_57:827565115083718668> :", `\`${song.duration} Minutes \``, true)
-        .addField("Voice Channel <a:emoji_15:818839370730569760> :",channel.name)
-        .addField("Text Channel <:emoji_30:832942399096487956> :",message.channel.name)
-        .addField("Voulome <a:emoji_16:818842836890943488> :",100)
+        .addField("Time <a:emoji_89:881920009897660458> :", `\`${song.duration} Minutes \``, true)
+        .addField("Voice Channel <a:emoji_90:882032776591835208> :",channel.name)
+        .addField("Text Channel <a:emoji_83:881181556604018780> :",message.channel.name)
+        .addField("Voulome <:emoji_81:881156629742096394> :",100)
         .setURL(song.url)
-        .setColor("#FF0000")
+        .setColor("#FF55FF")
         .setFooter(`Requested by: ${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
       var playingMessage = await queue.textChannel.send(newsong);
       await playingMessage.react("⏭");
