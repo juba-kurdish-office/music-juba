@@ -43,7 +43,7 @@ execute(message) {
       .setTitle("<a:emoji_80:881156593578827786> Now playing")
       .setDescription(`[**${song.title}**](${song.url})`)
       .setThumbnail(song.thumbnail.url)
-      .setColor("#FF0000")
+      .setColor("#FF55FF")
       .setFooter("Time Remaining: " + new Date(left * 1000).toISOString().substr(11, 8));
       //if its a stream
       if(ms >= 10000) {
