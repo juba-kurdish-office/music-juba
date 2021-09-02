@@ -17,7 +17,7 @@ module.exports = {
     let helpEmbed = new MessageEmbed()
     .setImage(`https://media.discordapp.net/attachments/875408935581016114/883070197790036028/7d20.gif`)
 
-    .setAuthor(`Moon Light`, `https://media.discordapp.net/attachments/853738123100291133/881541545428418630/PicsArt_08-29-05.01.58.png`)
+    .setAuthor(`made by Moon Light`, `https://images-ext-1.discordapp.net/external/Vw0bhHeHikuB7_OBgYMCSqwarPQ_jcKFKkKmRUZdaLs/https/media.discordapp.net/attachments/875408935581016114/883070197790036028/7d20.gif`)
     .setDescription(`
 
 <a:emoji_2:872570903945441390>┃ **User Commands**
