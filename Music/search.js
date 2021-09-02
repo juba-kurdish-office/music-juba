@@ -41,12 +41,12 @@ async execute(message,args,client) {
     //define a temporary Loading Embed
     let temEmbed = new MessageEmbed()
     .setAuthor("Searching...", "https://cdn.discordapp.com/emojis/757632044632375386.gif?v=1")
-    .setColor("#FF0000")
+    .setColor("#FF55FF")
     //define the Result Embed
     let resultsEmbed = new MessageEmbed()
       .setTitle("<a:emoji_80:881156593578827786> Results for: ")
       .setDescription(`\`${search}\``)
-      .setColor("#FF0000")
+      .setColor("#FF55FF")
       .setFooter("Response with your favorite number", client.user.displayAvatarURL() )
     //try to find top 5 results
     try {
