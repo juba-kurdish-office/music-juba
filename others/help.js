@@ -15,30 +15,21 @@ module.exports = {
     let commands = message.client.commands.array();
 
     let helpEmbed = new MessageEmbed()
-    .setImage(`https://cdn.discordapp.com/attachments/793209080978210858/841880624104603738/standard_1.gif`)
+    .setImage(`https://media.discordapp.net/attachments/875408935581016114/883070197790036028/7d20.gif`)
 
     .setAuthor(`Moon Light`, `https://media.discordapp.net/attachments/853738123100291133/881541545428418630/PicsArt_08-29-05.01.58.png`)
     .setDescription(`
 
-<a:emoji_19:818845027438166026>┃ **User Commands**
+<a:emoji_2:872570903945441390>┃ **User Commands**
 > \`invite . support . about . ping . prefix . uptime . avatar . se . invites . embed . serverinfo . userinfo(user) . servericon(icon)\`
 
-<a:emoji_15:818839370730569760>┃ **Music Commands**
+<a:emoji_90:882032776591835208>┃ **Music Commands**
 > \`play . skip . skipto . stop . volume . nowplaying . shuffle . search . resume . remove . queue . filter . loop . lyrics . radio\`
 
-<a:emoji_18:818844275750993940>┃ **Fun Commands**
+<:emoji_86:881599445509238845>┃ **Fun Commands**
 > \`lock(l) . unlock(ul) . ban . unban . slowmode . giveaway . cv . mute . unmute . say . bans . clear\`
 
-<a:emoji_48:837422969453936640>┃ **Game Commands**
-> \`slap . hug\`
-
-<a:fara:837363207475560470>┃ **Gif Commands**
-> \`boy . girl . baby . neon . couple . bff . anime . smoke . cartoon . movies . bokani . man+lady\`
-
-<a:emoji_28:823488482118467614>┃ **Photo Commands**
-> \`pboy . pgirl . pcouple . psmoke . pneon . pbaby . panime . pbff . pcartoon . pmovies . pbokani . pman+lady\`
-
-<a:zeko:837426841408110653>┃ **Links**
+<a:emoji_5:872571053086503012>┃ **Links**
 [support](https://discord.gg/dC8tuEczZb)    -    [invite](https://discord.com/api/oauth2/authorize?client_id=881158768983957545&permissions=8&scope=bot)
 `)
 
