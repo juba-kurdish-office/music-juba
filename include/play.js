@@ -140,7 +140,7 @@ module.exports = {
       let embed = new MessageEmbed()
            const channel = message.member.voice.channel
       const newsong = new MessageEmbed()
-        .setTitle("<:emoji_49:840801679330508841>"+song.title)
+        .setTitle("<a:emoji_90:882032776591835208>"+song.title)
         .setAuthor(`Play Now Music`, `https://cdn.discordapp.com/attachments/793209080978210858/841888092205613096/818843627621974056.gif`)
         .setImage(thumb)
         .addField("Time <a:emoji_89:881920009897660458> :", `\`${song.duration} Minutes \``, true)
