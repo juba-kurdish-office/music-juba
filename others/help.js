@@ -34,7 +34,7 @@ module.exports = {
 `)
 
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-   .setColor("#FF0000");
+   .setColor("#FF55FF");
    message.react("<a:like:813847731285393439>")
     return message.channel.send(helpEmbed).catch(console.error);
 
