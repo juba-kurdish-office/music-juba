@@ -161,7 +161,7 @@ module.exports = {
       await playingMessage.react("⏹");
       await playingMessage.react("🎵");
       await playingMessage.react("🎶");
-      await playingMessage.react("<a:emoji_83:881181556604018780>");
+      await playingMessage.react("🗒");
     } catch (error) {
       console.error(error);
     }
@@ -340,7 +340,7 @@ module.exports = {
           });
           break;
 
-          case "<a:emoji_83:881181556604018780>":
+          case "🗒":
         
           reaction.users.remove(user).catch(console.error);
           if (!canModifyQueue(member)) return;
