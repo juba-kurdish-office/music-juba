@@ -103,25 +103,25 @@ client.on(`message`, async (message) => {
     //define embed
     const embed = new Discord.MessageEmbed()
     .setColor("#FF0000")
-    .setAuthor("About Moon Light.", "https://media.discordapp.net/attachments/853738123100291133/881541545428418630/PicsArt_08-29-05.01.58.png")
+    .setAuthor("About Moon Light.", "https://media.discordapp.net/attachments/881575731015073852/885862036624523325/PicsArt_09-10-12.47.45.jpg")
     .setThumbnail(`https://cdn.discordapp.com/avatars/819568672250396702/69aa4e385fc3acf5228c9bc92d859023.webp`)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setTimestamp()
     .setDescription(`
 
-[Support](https://discord.gg/dC8tuEczZb) - [Invite](https://discord.com/api/oauth2/authorize?client_id=881158768983957545&permissions=8&scope=bot)
+[Suppor](https://discord.gg/urSTKbdQ7e) - [Invit](https://discord.com/api/oauth2/authorize?client_id=881148979373555763&permissions=536870911989&scope=bot)
 
-**<a:tangsor:840818995079020565> Owner Bot** :
-<@852951034270711859>
+**<a:emoji_4:872571016612818994> Owner Bot** :
+<@730549617044750346>
 
 **<a:emoji_55:827801709295828992> Set Status** :
 Online
 
-**<a:sahat:827565115083718668> Time Create** :
+**<a:emoji_89:881920009897660458> Time Create** :
 4/2/2021
 
-**<a:emoji_18:818844275750993940> Prefix Bot** :
-    @
+**<a:emoji_5:872571053086503012> Prefix Bot** :
+    m?
 
 `)
 
