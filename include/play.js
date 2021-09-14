@@ -152,7 +152,7 @@ module.exports = {
         .setFooter(`Requested by: ${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
       var playingMessage = await queue.textChannel.send(newsong);
       await playingMessage.react("⏭");
-      await playingMessage.react("⏯");
+      await playingMessage.react("<:play:887436801852198942>");
       await playingMessage.react("🔉");
       await playingMessage.react("🔊");
       await playingMessage.react("🔇");
@@ -185,7 +185,7 @@ module.exports = {
           collector.stop();
           break;
 
-        case "⏯":
+        case "<:play:887436801852198942>":
           reaction.users.remove(user).catch(console.error);
           if (!canModifyQueue(member)) return;
           if (queue.playing) {
