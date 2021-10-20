@@ -67,13 +67,13 @@ async execute(message, args, client) {
       if (serverQueue) {
         //if its an url
         if (urlValid) { //send searching link
-          message.channel.send(new MessageEmbed().setColor("#FF0000")
+          message.channel.send(new MessageEmbed().setColor("#FF55FF")
             .setAuthor(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
             .setDescription(`<a:emoji_3:872570971121414224> \`Searching\` 🔍  [𝗟𝗜𝗡𝗞](${args.join(" ")})`))
         //if not
         }
         else { //send searching TITLE
-          message.channel.send(new MessageEmbed().setColor("#FF0000")
+          message.channel.send(new MessageEmbed().setColor("#FF55FF")
             .setAuthor(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
             .setDescription(`<:emoji_52:900457267432927262> \`Searching\` 🔍 __**${args.join(" ")}**__`))
         }
@@ -84,7 +84,7 @@ async execute(message, args, client) {
         
         //if its an url
                if (urlValid) { //send searching link
-          message.channel.send(new MessageEmbed().setColor("#FF0000")
+          message.channel.send(new MessageEmbed().setColor("#FF55FF")
             .setAuthor(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
             .setDscripyion(` \`Searching\` 🔍 [𝗟𝗜𝗡𝗞](${args.join(" ")})`))
           //if not
