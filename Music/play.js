@@ -75,7 +75,7 @@ async execute(message, args, client) {
         else { //send searching TITLE
           message.channel.send(new MessageEmbed().setColor("#FF0000")
             .setAuthor(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-            .setDescription(`<a:emoji_76:880656536714760213> \`Searching\` 🔍 __**${args.join(" ")}**__`))
+            .setDescription(`<:emoji_52:900457267432927262> \`Searching\` 🔍 __**${args.join(" ")}**__`))
         }
       } else {
         //If nothing is playing join the channel
@@ -86,7 +86,7 @@ async execute(message, args, client) {
                if (urlValid) { //send searching link
           message.channel.send(new MessageEmbed().setColor("#FF0000")
             .setAuthor(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-            .setDscripyion(`<:emoji_52:900457267432927262> \`Searching\` 🔍 [𝗟𝗜𝗡𝗞](${args.join(" ")})`))
+            .setDscripyion(` \`Searching\` 🔍 [𝗟𝗜𝗡𝗞](${args.join(" ")})`))
           //if not
         }
         else { //send searching TITLE
