@@ -78,20 +78,7 @@ async execute(message, args, client) {
             .setDescription(`<a:emoji_76:880656536714760213> \`Searching\` 🔍 __**${args.join(" ")}**__`))
         }
       } else {
-        //If nothing is playing join the channel
-        queueConstruct.connection = await channel.join();
-        //send join message
-        message.channel.send(new MessageEmbed().setColor("#FF0000")
-          .setAuthor(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-          .setDescription(`**<a:emoji_90:882032776591835208> Joined \`${channel.name} \` 🗯️ Name Channel \`#${message.channel.name}\`**`)
-          .setFooter(`By: ${message.author.username}#${message.author.discriminator}`))
-        //if its an url
-        if (urlValid) { //send searching link
-          message.channel.send(new MessageEmbed().setColor("#FF0000")
-            .setAuthor(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-            .setDscripyion(`<a:emoji_83:881181556604018780> \`Searching\` 🔍 [𝗟𝗜𝗡𝗞](${args.join(" ")})`))
-          //if not
-        }
+      //if
         else { //send searching TITLE
           message.channel.send(new MessageEmbed().setColor("#FF0000")
             .setAuthor(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
