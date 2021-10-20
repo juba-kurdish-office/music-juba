@@ -92,7 +92,7 @@ async execute(message, args, client) {
         else { //send searching TITLE
           message.channel.send(new MessageEmbed().setColor("#FF0000")
             .setAuthor(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-            .setDescription(`<a:emoji_5:872571053086503012> \`Searching\`  🔍 __**${args.join(" ")}**__`))
+            .setDescription(`<:emoji_52:900457267432927262> \`Searching\`  🔍 __**${args.join(" ")}**__`))
         }
         //Set selfdeaf and serverdeaf true
         queueConstruct.connection.voice.setSelfDeaf(true);
