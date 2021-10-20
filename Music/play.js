@@ -83,10 +83,7 @@ async execute(message, args, client) {
         //send join message
         
         //if its an url
-        if (urlValid) { //send searching link
-          message.channel.send(new MessageEmbed().setColor("#FF0000")
-            .setAuthor(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-            .setDscripyion(`<a:emoji_83:881181556604018780> \`Searching\` 🔍 [𝗟𝗜𝗡𝗞](${args.join(" ")})`))
+       
           //if not
         }
         else { //send searching TITLE
