@@ -20,16 +20,16 @@ module.exports = {
     .setAuthor(`made by Moon Light`, `https://images-ext-1.discordapp.net/external/Vw0bhHeHikuB7_OBgYMCSqwarPQ_jcKFKkKmRUZdaLs/https/media.discordapp.net/attachments/875408935581016114/883070197790036028/7d20.gif`)
     .setDescription(`
 
-<a:emoji_2:872570903945441390>┃ **User Commands**
+<:emoji_54:900460681130819624>┃ **User Commands**
 > \`invite . support . about . ping . prefix . uptime . avatar . se . invites . embed . serverinfo . userinfo(user) . servericon(icon)\`
 
-<a:emoji_90:882032776591835208>┃ **Music Commands**
+<:emoji_52:900457267432927262>┃ **Music Commands**
 > \`play . skip . skipto . stop . volume . nowplaying . shuffle . search . resume . remove . queue . filter . loop . lyrics . radio\`
 
-<:emoji_86:881599445509238845>┃ **Fun Commands**
+<:emoji_53:900459656265228368>┃ **Fun Commands**
 > \`lock(l) . unlock(ul) . ban . unban . slowmode . giveaway . cv . mute . unmute . say . bans . clear\`
 
-<a:emoji_5:872571053086503012>┃ **Links**
+<:emoji_55:900461622185828492>┃ **Links**
 [support](https://discord.gg/urSTKbdQ7e)    -    [invite](https://discord.com/api/oauth2/authorize?client_id=881148979373555763&permissions=261724045121&scope=bot)
 `)
 
