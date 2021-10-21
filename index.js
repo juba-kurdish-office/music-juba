@@ -167,10 +167,10 @@ client.on(`message`, async (message) => {
     .setAuthor(`${message.guild.name}`,message.guild.iconURL({ dynamic: true }))
     .setDescription(`┈──────┄┄──────┈ꕥ
       ❥┋name / govand
-      ❥┋nickname / !               ᵏᵃᵏjuba  ᵐˡ 𓆩🖤𓆪
+      ❥┋nickname / <@730549617044750346>
       ❥┋age / 20
       ❥┋live ∕ slimane`)
-    .setImage(`https://media.discordapp.net/attachments/875408935581016114/883090380025905162/f9bd5d79310789066ea83e0144616deb.jpg`)
+    .setImage(`https://images-ext-1.discordapp.net/external/O5D89GB5v1JKHnEB8CPWXsbe9PohsRHBlimykqs9qdo/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/730549617044750346/8cf1ea067931d2589a9ff9646a97f477.png`)
     .setTimestamp()
     //delete the Command
     message.delete({timeout: 300})
