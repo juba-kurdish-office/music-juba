@@ -137,9 +137,9 @@ client.on(`message`, async (message) => {
     .setDescription (`
     <a:zeko:837426841408110653> Links
 
-<a:emoji_19:818845027438166026> [Support](https://discord.gg/U9x7w2aky6)
+<:emoji_55:900461622185828492> [Support](https://discord.gg/U9x7w2aky6)
 
-<a:emoji_18:818844275750993940> [Invite](https://discord.com/api/oauth2/authorize?client_id=900455193081155595&permissions=536601952193&scope=bot)`)
+<:emoji_55:900461622185828492> [Invite](https://discord.com/api/oauth2/authorize?client_id=900455193081155595&permissions=536601952193&scope=bot)`)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setImage(``)
     .setTitle(`**__SUPPOT __**`) 
