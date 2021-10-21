@@ -30,7 +30,7 @@ module.exports = {
 > \`lock(l) . unlock(ul) . ban . unban . slowmode . giveaway . cv . mute . unmute . say . bans . clear\`
 
 <:emoji_55:900461622185828492>┃ **Links**
-[support](https://discord.gg/urSTKbdQ7e)    -    [invite](https://discord.com/api/oauth2/authorize?client_id=881148979373555763&permissions=261724045121&scope=bot)
+[support](https://discord.gg/U9x7w2aky6)    -    [invite](https://discord.com/api/oauth2/authorize?client_id=900455193081155595&permissions=536601952193&scope=bot)
 `)
 
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
