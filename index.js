@@ -111,18 +111,14 @@ client.on(`message`, async (message) => {
 
 [Suppor](https://discord.gg/urSTKbdQ7e) - [Invit](https://discord.com/api/oauth2/authorize?client_id=881148979373555763&permissions=536870911989&scope=bot)
 
-**<a:emoji_4:872571016612818994> Owner Bot** :
+**<:emoji_57:900796443986628628> Owner Bot** :
 <@730549617044750346>
 
-**<a:emoji_55:827801709295828992> Set Status** :
-Online
-
-**<a:emoji_89:881920009897660458> Time Create** :
+**<:emoji_58:900796474294689852> Time Create** :
 4/2/2021
 
-**<a:emoji_5:872571053086503012> Prefix Bot** :
-    m?
-
+**<:emoji_56:900796413338873887> Prefix Bot** :
+    ?
 `)
 
     //send the Message
